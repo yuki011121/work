@@ -1,0 +1,18 @@
+﻿  init.cpp
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(47,13): error C2059: 语法错误:“.”
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(48,31): warning C4552: ”<=“: 未使用表达式结果
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(48,48): error C2059: 语法错误:“)”
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(49,17): error C2275: “std::stringstream”: 应为表达式而不是类型
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(49,30): error C2146: 语法错误: 缺少“)”(在标识符“ss”的前面)
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(51,17): error C2065: “ss”: 未声明的标识符
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(52,17): error C2065: “ss”: 未声明的标识符
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(63,12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(63,5): error C2365: “fclose”: 重定义；以前的定义是“函数”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(152,26): message : 参见“fclose”的声明
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(64,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(64,5): error C2365: “freopen”: 重定义；以前的定义是“函数”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(248,28): message : 参见“freopen”的声明
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(65,1): error C2059: 语法错误:“}”
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(65,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(75,52): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\tyyyy\Desktop\5.29\FILESYS\init.cpp(75,52): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
