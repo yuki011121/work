@@ -1,0 +1,111 @@
+ PZ
+ SF
+ID
+type
+IT
+IT
+IT
+IT
+SL
+S
+AS
+AE
+ Z
+T
+F
+AE
+ Z
+T
+F
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+ Z
+F
+ Z
+ Z
+T
+F
+ Z
+F
+ Z
+ Z
+AS
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+SL
+S
+LS
+CE
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+ZYZ
+AE
+ Z
+T
+F
+ Z
+SL
+S
+CS
+CE
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+ZYZ
+AE
+ Z
+T
+F
+ Z
+SL
+S
+AS
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+SL
+S
+AS
+AE
+ Z
+T
+F
+ Z
+T
+F
+ Z
+ Z
+             ********************语法分析正确!********************

@@ -1,0 +1,14 @@
+float c,d,a,b;
+a=((b-c)*d)+d/10;
+b=a+c;
+while(a+b<10)
+{
+  if(c+d>10)
+   { 
+      d=d+1;
+   }
+  else
+   {
+      d=d-1;
+   }
+}
