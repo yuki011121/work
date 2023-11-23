@@ -1,0 +1,37 @@
+`timescale 1ns / 1ps
+module alu_tb();
+    reg [7:0]DinA;
+    reg [7:0]Din;
+    reg CLK,EALU,ISUM,ISUB,IAND,IOR,ISHL,IXOR;
+    wire [7:0]Dout;
+
+ALU DUP(
+.CLK(CLK),
+.ISUM(ISUM),
+.ISUB(ISUB),
+.IAND(IAND),
+.IOR(IOR),
+.ISHL(ISHL),
+.IXOR(IXOR),
+.EALU(EALU),
+.Din(Din),//d2
+.DinA(DinA),//d1
+.Dout(Dout));
+    initial begin
+    CLK=1'b0;  
+    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b0111111;
+    DinA= 8'b0000_0011;
+    Din= 8'b0000_0001;
+   end
+    always   #20    CLK <= ~CLK; 
+    initial begin
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b0111110;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b1011110;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b1101110;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b1110110;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b1111010;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b1111100;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#100    {ISUM,ISUB,IAND,IOR,ISHL,IXOR,EALU}=7'b0111111;DinA=8'b0000_0011;Din= 8'b0000_0001;
+#40 $stop;
+   end
+endmodule
